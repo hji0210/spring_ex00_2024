@@ -1,4 +1,4 @@
-package com.example.ex00;
+package org.zerock.ex00;
 
 import java.io.*;
 import javax.servlet.http.*;
