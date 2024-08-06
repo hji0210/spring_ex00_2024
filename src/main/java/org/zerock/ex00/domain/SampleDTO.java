@@ -2,6 +2,7 @@ package org.zerock.ex00.domain;
 
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 public class SampleDTO {

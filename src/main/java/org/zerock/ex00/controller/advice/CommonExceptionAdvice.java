@@ -15,7 +15,7 @@ public class CommonExceptionAdvice {
 
     @ExceptionHandler(NullPointerException.class)
     public String exceptNumber(Exception exception, Model model){
-
+//String은 경로를 지정할 때 씀
         log.error("====================================");
         log.error(exception.getMessage());
 

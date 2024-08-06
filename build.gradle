@@ -14,8 +14,8 @@ ext {
     junitVersion = '5.9.2'
 }
 
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
+sourceCompatibility = '17'
+targetCompatibility = '17'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
@@ -62,13 +62,8 @@ dependencies {
     // https://mvnrepository.com/artifact/org.mybatis/mybatis-spring
     implementation 'org.mybatis:mybatis-spring:2.0.6'
 
-
-
-
-
-
-
-
+    implementation 'javax.servlet:jstl:1.2'
+    implementation 'taglibs:standard:1.1.2'
 
 }
 
